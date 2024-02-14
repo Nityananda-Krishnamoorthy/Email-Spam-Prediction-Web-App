@@ -4,22 +4,22 @@ This project is a web application built with Flask, a Python web framework, and 
 
 **Features**
 
-*Spam Prediction: The core functionality of the web app is to predict whether a given email is spam or not. The prediction is based on a machine learning model trained on a dataset of labeled emails.
-*User-Friendly Interface: The web app provides a simple and user-friendly interface for users to input email content and receive predictions.
-*Responsive Design: The web app is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
+1. Spam Prediction: The core functionality of the web app is to predict whether a given email is spam or not. The prediction is based on a machine learning model trained on a dataset of labeled emails.
+2. User-Friendly Interface: The web app provides a simple and user-friendly interface for users to input email content and receive predictions.
+3. Responsive Design: The web app is designed to be responsive, ensuring a seamless experience across different devices and screen sizes.
 
 **Technologies Used**
 
-*Flask: The web framework used to build the backend of the application.
-*Machine Learning: The project employs machine learning techniques for email classification, with a trained model handling the prediction task.
-*Bootstrap: The frontend of the web app is styled using the Bootstrap framework to ensure a clean and modern design.
+1. Flask: The web framework used to build the backend of the application.
+2. Machine Learning: The project employs machine learning techniques for email classification, with a trained model handling the prediction task.
+3. Bootstrap: The frontend of the web app is styled using the Bootstrap framework to ensure a clean and modern design.
 
 **Project Structure**
 
-*app.py: The main Flask application file containing the route handling and the integration of the machine learning model.
-*static/: This directory contains static assets such as CSS files, images, or JavaScript files.
-*templates/: The directory contains HTML templates used to render the web pages.
-*model/: The directory may contain the trained machine learning model and any related files.
+1. app.py: The main Flask application file containing the route handling and the integration of the machine learning model.
+2. static/: This directory contains static assets such as CSS files, images, or JavaScript files.
+3. templates/: The directory contains HTML templates used to render the web pages.
+4. model/: The directory may contain the trained machine learning model and any related files.
 
 **Usage**
 
@@ -34,3 +34,7 @@ This project is a web application built with Flask, a Python web framework, and 
 3.Open your web browser and navigate to http://localhost:5000/ to access the web app.
 
 4.Enter the email content in the provided form and click the "Predict" button to receive a spam prediction.
+
+**Live Demo**
+
+link:
