@@ -34,7 +34,3 @@ This project is a web application built with Flask, a Python web framework, and 
 3.Open your web browser and navigate to http://localhost:5000/ to access the web app.
 
 4.Enter the email content in the provided form and click the "Predict" button to receive a spam prediction.
-
-**Live Demo**
-
-link:
