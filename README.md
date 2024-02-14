@@ -1,4 +1,4 @@
-#Email Spam Prediction Web App
+# Email Spam Prediction Web App
 
 This project is a web application built with Flask, a Python web framework, and leverages machine learning to predict whether an email is spam or not. The application uses a trained machine learning model to make predictions based on the content of the input email.
 
