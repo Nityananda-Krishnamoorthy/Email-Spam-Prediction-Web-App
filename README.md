@@ -37,5 +37,5 @@ This project is a web application built with Flask, a Python web framework, and 
 
 **Result will be the binary form either Spam or Not Spam:**
 
-• If prediction Probability is **0%** then Prediction will be **Spam**.
-• If prediction Probability is **100%** then Prediction will be **Not Spam**.
+*If prediction Probability is **0%** then Prediction will be **Spam**.
+*If prediction Probability is **100%** then Prediction will be **Not Spam**.
