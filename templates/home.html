@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">              
+</head>
+<body>
+
+<!-- Navbar links -->
+<div class="collapse navbar-collapse" id="navbarNav">
+    <!-- Add your additional navigation links here if needed -->
+</div>
+    </nav>
+    
+    <div class="container"> 
+        <center><h1 class="mt-6 mb-6">Check if your email is spam!</h1></center>
+    <form action="/predict" method="post">
+        <!-- Ensure the 'name' attribute is set to 'email_content' -->
+        <label for="email_content">Enter email content:</label>
+        <textarea id="email_content" name="email_content" class="form-control" rows="10" cols="50"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </form>
+</div>
+
+</body>
+</html>
